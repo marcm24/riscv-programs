@@ -1,0 +1,9 @@
+algorithm explanation:
+Consider N people in a room. Suppose each person can greet each other only once. You are to
+calculate how many greetings occur.
+For example, suppose 4 people are in the room (i.e., N = 4). The following occurs:
+Person 4: Greets 3 people (persons, 3, 2, and 1).
+Person 3: Greets 2 people (persons 2 and 1). Note: this person already greeted person 4.
+Person 2: Greets 1 person (person 1). Note: this person already greeted persons 3 and 4.
+Person 1: Greets no additional people (has already greeted everyone).
+So, when N = 4, the number of people greeted is 3 + 2 + 1 = 6.
